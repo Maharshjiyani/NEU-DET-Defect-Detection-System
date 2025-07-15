@@ -1,7 +1,5 @@
 
 
----
-
 # Defect Detection with Streamlit
 
 ## Project Overview
@@ -178,3 +176,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+=======
+# NEU-DET-Defect-Detection-System
