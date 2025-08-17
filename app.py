@@ -69,7 +69,7 @@ CLASS_NAMES = ['crazing', 'inclusion', 'patches', 'pitted', 'rolled', 'scratches
 def preprocess_image(img):
     """Preprocess image for prediction"""
     # Resize image to model's expected input size
-    img_resized = img.resize((100, 100))
+    img_resized = img.resize((50, 50))
     
     # Convert to array and normalize
     img_array = np.array(img_resized) / 255.0
