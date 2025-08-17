@@ -139,10 +139,11 @@ def main():
     
     # Sidebar
     st.sidebar.header("🛠️ Options")
-   input_method = st.sidebar.selectbox(
+    input_method = st.sidebar.selectbox(
         "Choose input method:",
         ["Upload Image", "Camera Capture", "Real-time Camera"]
-    )   
+    )
+    
     # Display class information
     with st.sidebar.expander("ℹ️ Defect Classes"):
         for i, class_name in enumerate(CLASS_NAMES):
